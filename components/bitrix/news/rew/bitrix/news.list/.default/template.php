@@ -26,7 +26,7 @@ $this->setFrameMode(true);
 		<div class="review-img-wrap"><a href="#"><img  src="<?=$arItem['PREVIEW_PICTURE']['SRC']?>" alt="img"></a></div> <br/>
 	<?endif?>
 	<?if($arItem["PREVIEW_PICTURE"] = NULL):?>
-		<div class="review-img-wrap"><a href="#"><img src="<?=SITE_TEMPLATE_PATH?>/img/rew/no_photo.jpg" alt="img"></a></div> <br/>
+		<div class="review-img-wrap"><a href="#"><img src="<?SITE_TEMPLATE_PATH?>/img/rew/no_photo.jpg" alt="img"></a></div> <br/>
 	<?endif?>
 	
 </div>
