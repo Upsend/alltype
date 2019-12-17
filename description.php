@@ -4,5 +4,6 @@ $arTemplate = array (
   'DESCRIPTION' => 'Описание',
   'SORT' => '',
   'TYPE' => '',
+  
 );
 ?>
